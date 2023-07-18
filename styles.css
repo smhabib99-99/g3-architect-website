@@ -1,4 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Shared Styles goes here */
+
 *{
     font-family: 'Work Sans', sans-serif;
 }
+.primary-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color:#FFF;
+}
+/* Shared Styles ends here */
+
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding : 50px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    color:#131313;
+}
+nav li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    /* color: #424242; */
+    margin-right: 30px;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner styles goes here... */
+.banner-head{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color:#131313
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727277;
+}
+/* Banner Styles ends here. */
