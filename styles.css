@@ -2,60 +2,114 @@
 
 /* Shared Styles goes here */
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
-.primary-btn{
+
+.primary-btn {
     font-size: 20px;
     font-weight: 600;
-    color:#FFF;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF900E;
+    padding:20px 25px;
+    cursor: pointer;
+    border: 0px;
 }
+
 /* Shared Styles ends here */
 
-header{
+header {
     background-color: rgba(255, 144, 14, 0.10);
-    padding : 50px 20px;
+    padding: 50px 20px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-weight: 700;
-    color:#131313;
+    color: #131313;
 }
-nav li{
+
+nav li {
     list-style: none;
     font-weight: 500;
     font-size: 18px;
     /* color: #424242; */
     margin-right: 30px;
 }
+
 nav li a {
     text-decoration: none;
     color: #424242;
 }
 
 /* Banner styles goes here... */
-.banner-head{
+.banner-head {
     max-width: 800px;
     text-align: center;
     margin: 0px auto;
 }
 
-.banner-title{
+.banner-title {
     font-size: 64px;
     font-weight: 700;
-    color:#131313
+    color: #131313
 }
-.banner-description{
+
+.banner-description {
     font-size: 16px;
     font-weight: 400;
     color: #727277;
 }
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
 /* Banner Styles ends here. */
+
+
+
+
+/* Responsive media query styles goes here */
+
+ /* Responsive for mobile devices starts here */
+@media screen and (max-width: 576px){
+
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+  /* Responsive for mobile devices ends here */
+
+/* Responsive for Tablet starts here */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    
+    nav{
+        flex-direction: column;
+    }
+
+    header{
+        padding: 50px;
+    }
+}
+
+
+/* Responsive for Tablet Ends here */
+
+
+
+/* Responsive media quesry styles ends here */
